@@ -3,7 +3,7 @@ export default defineAppConfig({
     title: "Agile book",
     description: "アジャイル開発手法についてのオンラインブック",
     image:
-      "https://user-images.githubusercontent.com/904724/185365452-87b7ca7b-6030-4813-a2db-5e65c785bf88.png",
+      "agile-book.png",
     socials: {
       twitter: "jabelic_",
       github: "jabelic-works/Agile",
@@ -16,7 +16,7 @@ export default defineAppConfig({
     github: {
       dir: ".starters/default/content",
       branch: "main",
-      repo: "docus",
+      repo: "Agile",
       owner: "nuxt-themes",
       edit: true,
     },
@@ -30,7 +30,9 @@ export default defineAppConfig({
       fluid: true,
     },
     header: {
-      logo: true,
+      logo:true,
+      title: "Agile book",
+      description: "アジャイル開発手法についてのオンラインブック",
       showLinkIcon: true,
       exclude: [],
       fluid: true,
