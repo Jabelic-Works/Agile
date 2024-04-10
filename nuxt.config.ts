@@ -9,4 +9,8 @@ export default defineNuxtConfig({
     "@nuxtjs/plausible",
     "@nuxthq/studio",
   ],
+  plausible: {
+    domain: "nuxt-themes.github.io",
+  },
+  // plugins: ["~/plugins/preview.client.ts"],
 });
