@@ -17,9 +17,13 @@
     "@nuxtjs/plausible": "^0.2.3",
     "@types/node": "^20.8.2",
     "eslint": "^8.50.0",
-    "nuxt": "^3.7.4"
+    "nuxt": "^3.7.4",
+    "vue-mermaid": "^0.0.15"
   },
   "volta": {
     "node": "20.9.0"
+  },
+  "dependencies": {
+    "mermaid": "^10.9.0"
   }
 }
