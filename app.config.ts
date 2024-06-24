@@ -1,6 +1,6 @@
 export default defineAppConfig({
   docus: {
-    title: "Agile book",
+    title: "Agile book for scrum team",
     description: "アジャイル開発手法についてのオンラインブック",
     image:
       "agile-book.png",
@@ -31,7 +31,7 @@ export default defineAppConfig({
     },
     header: {
       logo:true,
-      title: "Agile book",
+      title: "Agile book for scrum team",
       description: "アジャイル開発手法についてのオンラインブック",
       showLinkIcon: true,
       exclude: [],
